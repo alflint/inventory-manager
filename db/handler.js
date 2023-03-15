@@ -12,6 +12,9 @@ class DatabaseHandler {
         const db_setup = require("./setup")
         var db = new db_setup(this.database)
         await db.init(this.host, this.user, this.password);
+    }
+
+    async seed_db(){
         await seedAll()
     }
 }

@@ -4,6 +4,9 @@ const DatabaseHandler = require('./db/handler')
 
 const db_handler = new DatabaseHandler()
 db_handler.init()
+if (process.argv[2] && process.argv[2] === '-seed') {
+  db_handler.seed_db()
+} 
 
 const app = express();
 const PORT = process.env.PORT || 3001;
