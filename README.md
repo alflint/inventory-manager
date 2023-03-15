@@ -2,7 +2,7 @@
 
 ## Description
 
-This project uses Node, Express, Sequlize, and MySQL to create an inventory management API. To see the project in use, check out the [tutorial video.](). Once running, a user can hit specific endpoints retrieving informtation on Products, Tags, Categories and more. 
+This project uses Node, Express, Sequlize, and MySQL to create an inventory management API. To see the project in use, check out the [tutorial video.]() Once running, a user can hit specific endpoints retrieving informtation on Products, Tags, Categories and more. 
 
 <br>
 
